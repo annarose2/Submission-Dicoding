@@ -7,7 +7,7 @@ import streamlit as st
 sns.set(style='ticks')
 
 # Menyiapkan data day_df
-day_df = pd.read_csv("C:/Users/sinsi/Documents/Bangkit 2024/Bike-sharing-dataset/day.csv")
+day_df = pd.read_csv("./dashboard/day.csv")
 day_df.head()
 
 # Menghapus kolom yang tidak diperlukan
